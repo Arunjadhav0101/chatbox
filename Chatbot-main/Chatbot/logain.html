@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/src/2.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <h2>Register</h2>
+        <form action="/submit" method="POST" id="registeration">
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <small id="nameError" class="error-message"></small>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <small id="emailError" class="error-message"></small>
+
+
+            <label for="Password">password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password">
+            <small id="passwordError" class="error-message"></small>
+
+            <button type="submit">Register</button>
+
+        </form>
+    </div>
+    <script src="./src/counter.js"></script>
+</body>
+</html>
