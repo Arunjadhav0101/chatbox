@@ -12,8 +12,8 @@ const popup = document.getElementById('popup')
 const closePopButton = document.getElementById('close-popup')
 let messgeCount=0;
 
-const API_KEY = "AIzaSyALDRZHkyT0HSVOIVdbK5XxghDWMsBx5ac"; 
-const genAI = new GoogleGenerativeAI(API_KEY);
+
+const genAI = new GoogleGenerativeAI(apikey);
 
 // Function to handle user input
 async function handleUserInput() {
