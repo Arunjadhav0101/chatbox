@@ -1,4 +1,3 @@
-
 const registeration=document.getElementById('registeration')
 
 registeration.addEventListener('submit',(e)=>{
