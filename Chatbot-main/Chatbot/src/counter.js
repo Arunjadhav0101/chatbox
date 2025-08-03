@@ -1,7 +1,7 @@
 const registeration=document.getElementById('registeration')
 
 registeration.addEventListener('submit',(e)=>{
- e.preventDefault();
+    e.preventDefault();
 
 let isvalid=true;
 
